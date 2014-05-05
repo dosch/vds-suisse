@@ -1,0 +1,186 @@
+{
+	/* general text blocks that are used everywhere */
+	"algemeen": {
+		"lang_code": "nl",
+
+		/* name of the language */
+		"lang_name": "Nederlands",
+
+		"Titel": "Dataretentie in Zwitserland",
+
+		/* names of the 6 most important cities */
+		"town_zuerich": "Zurich",
+		"town_bern": "Bern",
+		"town_basel": "Basel",
+		"town_genf": "Geneve",
+		"town_luzern": "Lucerne",
+		"town_lausanne": "Lausanne"
+	},
+
+	/* text blocks that are used statically throughout the app */
+	"frame": {
+		/* tab labels */
+		"tab_map": "Lijst",
+		"tab_calendar": "Kalender",
+		"tab_social": "Netwerk",
+
+		/* full screen button */
+		"button_fullscreen": "Volledig scherm",
+		"button_fullscreen_info": "Open applicatie in volledig scherm",
+
+		/* explanatory text for "list view" */
+		"text_map_head": "Wanneer en met wie heeft<br>Balthasar gecommuniceerd?",
+		"text_map_info": "Locatie en communicatie kan berekend worden dankzij de bewaarde email- en bel-data.",
+		
+		/* explenatory text for "calendar view" */
+		"text_calendar_head": "Wanneer was Balthasar in:",
+		"word_or": "of",
+		"text_calendar_info": "De reiskalender wordt berekend dankzij het reisprofiel van de telefoon.",
+		
+		/* explanatory text for "social network view" */
+		"text_social_head": "Wie zijn Balthasars<br>vrienden en collega's?",
+		"text_social_info1": "Een netwerk van contacten kan gemaakt worden op basis van de metadata van email zonder enige kennis van de inhoud van de mails.",
+		"text_social_info2": "Iedereen die een mail stuurt naar meerdere collega's onthuld dat deze elkaar ook kennen",
+		"text_social_info3": "Balthasar's totale persoonlijke levensfeer, bestaanden uit familie, vrienden en collega's, kan worden afgeleidt uit zijn 22'324 e-mails.",
+		
+		/* footer text */
+		"footer": "Gemaakt door <a href=\"https://opendatacity.de/\" target=\"_blank\">OpenDataCity</a>. Over de data bron: <a href=\"http://www.digitale-gesellschaft.ch/dr\" target=\"_blank\">digiges.ch</a>. Applicatie is gelicenceerd onder <a href=\"http://creativecommons.org/licenses/by/3.0/\" target=\"_blank\">CC-BY 3.0</a>."
+	},
+
+	/* text blocks that are used on the homepage */
+	"index": {
+		/* For the list of languages in the top */
+		"other_languages": "Andere talen",
+
+		/* description for search engines */
+		"desc_long": "Balthasar Glättli, lid van de Nationale Raad voor de Groenen, heeft inzicht gegeven in een deel van zijn data bewaard onder de wet op dataretentie voor deze datavisualisatie. Als resultaat laat de bewaarde data zien wat geheime diensten en de politie een profiel noemen - een compleet beeld van een geheel leven van een persoon onder surveillance.",
+		"desc_short": "Gevisueliseerd: Dataretentie in Zwitserland",
+		"keywords": "Bewaarde gegevens, Zwitserland, dataretentie",
+
+		/* heading */
+		"heading": "Data retention in Switzerland",
+		"subheading": "The monitored life of National Councilor Balthasar Glättli.",
+		
+		/* embed button */
+		"embed": "Embed",
+
+		/* info texts */
+		"info1": "<a href=\"http://www.balthasar-glaettli.ch/\" target=\"_blank\">Balthasar Glättli</a>, member of the National Council for The Green Party in Switzerland, has provided <a href=\"https://opendatacity.de\">OpenDataCity</a> with parts of his retained data of six month for this visualization. As a result, these retained data reveal what secret services and law inforcement call \"profile\" - a comprehensive picture of the entire life of the monitored person.",
+		"info2": "The visualization is based on the same metadata of the telephone and mail traffic, that are recorded as part of the data retention. For further background information please visit the websites of our project partner <a href=\"https://www.digitale-gesellschaft.ch/dr.html \"target=\"_blank \">Digital Society Switzerland</a>.",
+		"info3": "We provide this visualization under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/3.0/\">CC-BY 3.0</a> license, so everyone (newspapers, blogs, etc.) can embed the application and use the graphics freely.",
+		"facts_and_stats": "<strong>Additional facts and statistics:</strong><ul><li>The retained e-mail and mobile communication data cover a <strong>period of 6 month</strong> (exactly 179 days).</li><li>During this period a total of <strong>7'112 database entries</strong> on the mobile phone were recorded. Of these, 2'610 entries for Internet connections (36.7%, 14.6 per Day), 3'085 SMS/MMS (43.4%, 17.2 per day) and 1'417 entries for calls (19.9%, 7.9 per day)</li><li>Balthasar caused a total of 5'161'133'870 Bytes (<strong>5.2 GB</strong> - 28.8 MB per day) <strong>Internet traffic</strong> with his mobile phone. Of which 979'745'187 Bytes (980 MB - 5.5 MB per day) were uploaded and 4'181'388'683 Bytes (4.2 GB - 23.4 MB per day) were downloaded.</li><li>As the location of the mobile phone is detected with every phone call, every text message and every Internet connection, we can analyze <strong>Balthasar's movement</strong>. His highest speed was about 180 km/h during a train ride on 09.04.2013 at 15:15. Overall, he has traveled a distance of at least 16'000 km during the 6 months.</li><li>E-mail metadata are recorded too as part of the data retention. Within 6 months Balthasar has received a total of <strong>14'638 E-Mails</strong> (82 per day) from about 6'500 people. He has sent 1'654 E-Mails (9 per day) to 600 people.</li></ul>",
+		
+		/* list of links */
+		"links_heading": "Further links:",
+		"link_github": "The complete code is on GitHub: <a href=\"https://github.com/opendatacity/vds-suisse/\">github.com/opendatacity/vds-suisse</a>.",
+		"link_graphic_calendar": "High resolution graphic of the <a href=\"download/calendar.png\">calendar</a>.",
+		"link_graphic_network": "High resolution graphic of the <a href=\"download/network_4096.png\">social network</a>.",
+		"link_translation": "Help us to translate this app into other languages: <a href=\"https://github.com/opendatacity/vds-suisse/tree/master/generator/languages\">github.com/opendatacity/vds-suisse/.../languages</a>.",
+		
+		/* footer */
+		"footer_left": "Created by <a href=\"https://opendatacity.de/\">OpenDataCity</a>. The application is licensed under <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/3.0/\">CC-BY 3.0</a>.",
+		"footer_right": "This page is analyzed with Google Analytics. <a href=\"https://opendatacity.de/impressum/\" target=\"_blank\">Imprint</a>",
+		
+		/* embed texts */
+		"license_info": "This application is licensed under <a target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\">CC-BY license</a> and may be embedded in blogs and other media:",
+		"created_by": "Provided by",
+		"embed_info": "For advanced users: You can define a pre-selected tab by adding a hash parameter to the URL<ul><li><code>#tab=calendar</code> The <a href=\"http://apps.opendatacity.de/vds/frame_en.html#tab=calendar\" target=\"_blank\">calendar view</a> will be displayed.</li><li><code>#tab=social</code> The <a href=\"http://apps.opendatacity.de/vds/frame_en.html#tab=social\" target=\"_blank\">social network</a> will be displayed.</li></ul>",
+		"close": "Close"
+	},
+
+	/* text blocks that are used dynamically throuout the app */
+	"script": {
+		/* days of the week */
+		"weekday_short_mon": "Mon",
+		"weekday_short_tue": "Tue",
+		"weekday_short_wed": "Wed",
+		"weekday_short_thu": "Thu",
+		"weekday_short_fri": "Fri",
+		"weekday_short_sat": "Sat",
+		"weekday_short_sun": "Sun",
+		
+		/* message types */
+		"msg_type_fb": "Facebook post",
+		"msg_type_tw": "Tweet",
+		"msg_type_sm": "SMS %",
+		"msg_type_ca": "Call %",
+		"msg_type_ma": "Email %",
+		
+		/* text blocks for list view on the right */
+		"word_from": "from",
+		"word_to": "to",
+		"word_From": "From",
+		"word_To": "To",
+		"word_Content": "Content",
+		"word_number": "No.",
+
+		/* text blocks for social network view on the right */
+		"social_info_name": "Name",
+		"social_info_org": "Group",
+		"social_info_email_out": "Emails to Balthasar",
+		"social_info_email_in": "Emails from Balthasar",
+		"social_info_email_co": "In CC of E-Mails to Balthasar",
+		"social_info_sms_out": "SMS to Balthasar",
+		"social_info_sms_in": "SMS from Balthasar",
+		"social_info_call_out": "Calls to Balthasar",
+		"social_info_call_in": "Calls from Balthasar",
+		"social_info_maincomtimes": "Main time of communication",
+		
+		/* words for describing contacts and groups of contacts */
+		"contact_adlethorensgoumaz": "Adèle Thorens Goumaz",
+		"contact_arztrztin": "Doctor",
+		"contact_assistentin": "Assistant",
+		"contact_asylchmailingliste": "asyl.ch mailing list",
+		"contact_asylchnewsletter": "asyl.ch nieuwsbrief",
+		"contact_balthasarglttli": "Balthasar Glättli",
+		"contact_brigittemarti": "Brigitte Marti",
+		"contact_bundesrat": "Federal Council",
+		"contact_digigesmailingliste": "digiges mailing list",
+		"contact_diverse": "miscellaneous",
+		"contact_doodlenewsletter": "doodle nieuwsbrief",
+		"contact_facebooknewsletter": "Facebook nieuwsbrief",
+		"contact_factschnewsletter": "facts.ch nieuwsbrief",
+		"contact_familie": "Family",
+		"contact_gemeinderat": "Local council",
+		"contact_googlealerts": "Google Alerts",
+		"contact_googlecalendar": "Google Calendar",
+		"contact_googlenewsletter": "Google nieuwsbrief",
+		"contact_grne": "The Greens",
+		"contact_hyperalertsnewsletter": "hyperalerts nieuwsbrief",
+		"contact_journalistin": "Journalist",
+		"contact_kantonsrat": "Canton council",
+		"contact_medien": "Media",
+		"contact_mediendienstezuerichch": "mediendienste@zuerich.ch",
+		"contact_minlimartipartnerin": "Min Li Marti (partner)",
+		"contact_miriambehrens": "Miriam Behrens",
+		"contact_mutter": "Mother",
+		"contact_nationalrat": "National Council",
+		"contact_netzwochechnewsletter": "netzwoche.ch nieuwsbrief",
+		"contact_newsadminchnewsletter": "news.admin.ch nieuwsbrief",
+		"contact_newsaktuellch": "newsaktuell.ch",
+		"contact_ngo": "NGO",
+		"contact_ngomieterrecht": "NGO tenant-right",
+		"contact_ngomigrationasyl": "NGO migration/asylum",
+		"contact_nzznewsletter": "NZZ nieuwsbrief",
+		"contact_parlamentarierin": "Member of Parliament",
+		"contact_parlamentsnewsletter": "Parliament nieuwsbrief",
+		"contact_person": "Person",
+		"contact_pfarrer": "Priest",
+		"contact_politik": "Politics",
+		"contact_politnetznewsletter": "Politnetz nieuwsbrief",
+		"contact_rechtsanwalt": "Lawyer",
+		"contact_ronorpnetnewsletter": "ronorp.net nieuwsbrief",
+		"contact_sonstigerkontakt": "Other contact",
+		"contact_stadtrat": "City Council",
+		"contact_stnderat": "Council of States",
+		"contact_swissconsortiumnewsletter": "swissconsortium nieuwsbrief",
+		"contact_tamedianewsletter": "Tamedia nieuwsbrief",
+		"contact_twitter": "Twitter",
+		"contact_uelileuenberger": "Ueli Leuenberger",
+		"contact_universitt": "Universiteit",
+		"contact_vater": "Vader",
+		"contact_verteiler": "Mailing list",
+		"contact_wordpresscomnewsletter": "wordpress.com nieuwsbrief",
+		"contact_xingcomnewsletter": "xing.com nieuwsbrief"
+	}
+}
